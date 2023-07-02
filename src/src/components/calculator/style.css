@@ -1,0 +1,7 @@
+.calculatorBox {
+    width: 400px;
+    height: auto;
+    background: #fff;
+    box-shadow: rgba(0,0,0,0.1) 0 1rem 3rem;
+    border-radius: 1rem;
+}

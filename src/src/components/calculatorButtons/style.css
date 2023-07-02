@@ -1,0 +1,88 @@
+.calculatorButtons {
+    width:100%;
+    height:300px;
+    display: grid;
+    flex:4;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 25%);
+    grid-template-areas:
+        "aa ab ac ad"
+        "ba bb bc bd"
+        "ca cb cc cd"
+        "da db dc dd";
+}
+.calculatorButtons span {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: none;
+    font-weight: 400;
+    font-size: 2em;
+    cursor: pointer;
+}
+.calculatorButtons span:hover {
+    background: #f2f3f4;
+}
+.calculatorButtons span:active {
+    background: #eee;
+}
+.calculatorButtons span.clearCalculator {
+    background: cadetblue;
+    color: white;
+}
+.calculatorButtons span.clearCalculator:hover {
+    background: rgb(95, 158, 160, 0.8);
+}
+.calculatorButtons span.clearCalculator:active {
+    background: rgb(95, 158, 160, 0.7);
+}
+
+.aa{
+    grid-area: aa;
+}
+.ab{
+    grid-area: ab;
+}
+.ac{
+    grid-area: ac;
+}
+.ad{
+    grid-area: ad;
+}
+.ba{
+    grid-area: ba;
+}
+.bb{
+    grid-area: bb;
+}
+.bc{
+    grid-area: bc;
+}
+.bd{
+    grid-area: bd;
+}
+.ca{
+    grid-area: ca;
+}
+.cb{
+    grid-area: cb;
+}
+.cc{
+    grid-area: cc;
+}
+.cd{
+    grid-area: cd;
+}
+.da{
+    grid-area: da;
+}
+.db{
+    grid-area: db;
+}
+.dc{
+    grid-area: dc;
+}
+.dd{
+    grid-area: dd;
+}

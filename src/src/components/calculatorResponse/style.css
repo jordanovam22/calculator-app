@@ -1,0 +1,7 @@
+.calculatorResponse {
+    padding: 2rem 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}

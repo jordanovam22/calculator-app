@@ -1,0 +1,13 @@
+{
+	"name": "Calculator",
+	"start_url": "/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"background_color": "#fff",
+	"theme_color": "#673ab8",
+	"icons": [{
+		"src": "/assets/favicon.ico",
+		"type": "icon/ico",
+		"sizes": "32x32"
+	}]
+}
